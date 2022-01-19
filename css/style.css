@@ -6,15 +6,68 @@
 
 body {
     background-color: #010330;
-    font-family: 'Oswald', sans-serif;
 }
 
 h1 {
+    color: #FFF;
     font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    font-size: 5em;
 }
 
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
 
 .content {
     background-color: #FFF;
     padding: 15px;
+}
+
+.padding-30 {
+    padding-bottom: 30px;
+}
+
+
+/* Sections */
+#intro {
+    background: no-repeat center/cover fixed url(../images/intro-bg.jpg);
+}
+
+#name {
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+#experience {
+    background: no-repeat center/cover fixed url(../images/experience-bg.jpg);
+}
+
+#education {
+    background: no-repeat center/cover fixed url(../images/education-bg.jpg);
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5em;
+    }
 }

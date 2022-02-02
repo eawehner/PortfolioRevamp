@@ -65,6 +65,40 @@ h4 {
 }
 
 
+/* Image Previews */
+
+details {
+    background-color: #CCC;
+}
+
+summary {
+    background-color: #FFF;
+    color: #000;
+    border-bottom: 2px solid #000;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+details img {
+    display: block;
+    margin: auto;
+}
+
+.slideshow {
+
+}
+
+.slide {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+
 /* Mobile */
 @media (max-width: 600px) {
     h1 {

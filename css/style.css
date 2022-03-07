@@ -68,7 +68,7 @@ h4 {
 /* Image Previews */
 
 details {
-    background-color: #CCC;
+    background-color: #FFF;
 }
 
 summary {
@@ -85,11 +85,11 @@ details img {
     margin: auto;
 }
 
-.slideshow {
+.slideshow-ARSOF, .slideshow-VITTORIA {
     list-style: none;
 }
 
-.slide {
+.slide-ARSOF, .slide-VITTORIA {
     display: none;
 }
 
